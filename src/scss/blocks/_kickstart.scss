@@ -4,6 +4,10 @@
   align-items: center;
   margin-bottom: 160px;
 
+  @media(max-width: 1024px) {
+    flex-direction: column;
+  }
+
   &:last-child {
     margin-bottom: 0px;
   }

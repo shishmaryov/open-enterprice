@@ -5,6 +5,10 @@
     display: flex;
     justify-content: space-between;
     vertical-align: middle;
+
+    @media(max-width: 1024px) {
+      flex-direction: column;
+    }
   }
 
   &__decor {
