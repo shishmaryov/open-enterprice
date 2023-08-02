@@ -1,0 +1,28 @@
+.promo {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+	&__info {
+    max-width: 610px;
+	}
+
+	&__title {
+    margin-top: 0;
+    margin-bottom: 24px;
+	}
+
+	&__description {
+    margin-top: 0;
+    margin-bottom: 60px;
+    color: $grey;
+	}
+
+	&__button {
+	}
+
+	&__img {
+	}
+}

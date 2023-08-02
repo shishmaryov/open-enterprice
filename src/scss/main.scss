@@ -8,5 +8,67 @@
 
 @import './components/container';
 @import "./components/header";
+@import './components/footer';
+
+.button {
+  padding: 20px 24px;
+  background: #71A894;
+  border: none;
+  border-radius: 8px;
+  color: $white;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+
+  &--dark {
+    background: $black;
+  }
+}
+
+.description {
+  font-size: 24px;
+  line-height: 32px;
+  color: $black;
+  letter-spacing: -0.48px;
+  margin-top: 0;
+}
+
+.title {
+
+  &--1 {
+    font-size: 64px;
+    font-family: 'Bely', serif;
+    line-height: 125%;
+    font-weight: 400;
+    margin-top: 0;
+  }
+
+  &--2 {
+    font-size: 48px;
+    font-family: 'Bely', serif;
+    line-height: 130%;
+    font-weight: 400;
+    line-height: 64px;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+
+  &--3 {
+    color: $black;
+    font-family: "Novel Mono Pro", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    margin-top: 0;
+  }
+}
+
 @import 'blocks/logo';
 @import 'blocks/nav';
+@import 'blocks/promo';
+@import 'blocks/reimagining';
+@import 'blocks/kickstart';
+@import 'blocks/help';
+@import 'blocks/start';

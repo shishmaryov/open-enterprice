@@ -1,0 +1,31 @@
+.kickstart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 160px;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
+  &__wrapper {
+    margin-bottom: 160px;
+  }
+
+	&__info {
+    max-width: 644px;
+	}
+
+	&__icon {
+	}
+
+	&__title {
+    margin-top: 24px;
+	}
+
+	&__description {
+    font-size: 18px;
+    color: $black;
+    line-height: 26px;
+	}
+}
