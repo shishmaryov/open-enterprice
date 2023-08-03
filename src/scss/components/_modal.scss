@@ -1,0 +1,33 @@
+.modal {
+
+  &__form {
+    display: grid;
+    gap: 48px;
+    @media(min-width: 1024px) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+
+    }
+  }
+
+  &__inputs {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+
+    @media(min-width: 1024px) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+  }
+
+  &__input {
+    padding: 8px;
+  }
+
+  &__button {
+  }
+}
+.button {
+}
