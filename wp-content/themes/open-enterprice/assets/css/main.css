@@ -351,6 +351,10 @@ a {
   color: #71A894;
 }
 
+.promo {
+  margin-bottom: 180px;
+}
+
 .promo .container {
   display: -webkit-box;
   display: -ms-flexbox;
