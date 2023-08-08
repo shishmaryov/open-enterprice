@@ -69,7 +69,7 @@
 <div class="graph-modal">
 	<div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="request">
 		<button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"
-			data-graph-path="request"></button>
+			></button>
 		<div class="graph-modal__content">
 			<h2 class="tittle--2">Request</h2>
 
