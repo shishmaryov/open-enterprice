@@ -108,14 +108,11 @@
         <div class="start__decor"></div>
         <div class="container">
           <div class="start__info">
-            <h2 id="request" class="title--2 start__title">Start an Open Enterprise</h2>
-            <p class="description start__description">If you can’t wait to run a new or existing organization on Open Enterprise and are willing to explore and navigate the beta, we’d love to get you started.</p>
+            <h2 id="request" class="title--2 start__title"><?php the_field('start_title'); ?></h2>
+            <p class="description start__description"><?php the_field('start_description'); ?></p>
             <button class="btn-reset button start__button" data-graph-path="request">Request early access</button>
           </div>
-          <picture>
-            <source srcset="img/start-img.webp" type="image/webp">
-            <img src="img/start-img.png" alt="start-img">
-          </picture>
+          <img src="<?php the_field('start_img'); ?>" alt="start-img">
         </div>
       </section>
     </main>
