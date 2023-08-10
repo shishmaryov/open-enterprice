@@ -273,6 +273,7 @@ a {
 }
 .modal__input {
   padding: 8px;
+  height: 100%;
 }
 .button {
   padding: 20px 24px;

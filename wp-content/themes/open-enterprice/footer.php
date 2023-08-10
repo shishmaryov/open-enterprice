@@ -72,14 +72,7 @@
 			></button>
 		<div class="graph-modal__content">
 			<h2 class="tittle--2">Request</h2>
-
-			<form action="" class="modal__form">
-				<div class="modal__inputs">
-					<input placeholder="name" type="text" class="modal__input">
-					<input placeholder="phone" type="tel" class="modal__input">
-				</div>
-				<button class="button modal__button">Send</button>
-			</form>
+			<?php echo do_shortcode('[contact-form-7 id="f44980a" html_class="modal__form" title="Contact form"]'); ?>
 		</div>
 	</div>
 </div>
